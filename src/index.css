@@ -1,0 +1,31 @@
+@import-normalize;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Merriweather', serif;
+}
+
+li {
+	list-style: none;
+}
+
+:root {
+	--navy: #003844;
+	--teal: #006c67;
+	--pink: #f194b4;
+	--mango: #ffb100;
+	--sand: #ffebc6;
+}
+
+/* reference --> https://css-tricks.com/stripes-css/ */
+body {
+	background: repeating-linear-gradient(
+		to right,
+		var(--navy),
+		var(--teal),
+		var(--pink),
+		var(--mango),
+		var(--sand)
+	);
+}

@@ -1,0 +1,12 @@
+.name {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.name h1 {
+	margin: 0;
+	margin-top: -5rem;
+	font-weight: normal;
+}
