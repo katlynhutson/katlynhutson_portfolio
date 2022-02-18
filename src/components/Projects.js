@@ -5,10 +5,11 @@ function Projects(props) {
 		<div className='projects-container'>
 			<div className='projects'>
 				<h2>projects</h2>
-				<div className='one'>one</div>
+				<div className='project-three'>
+					<a href='' />
+				</div>
 				<div className='two'>two</div>
 				<div className='three'>three</div>
-				<div className='four'>four</div>
 			</div>
 		</div>
 	);

@@ -21,9 +21,9 @@
 .hamburger {
 	display: flex;
 	justify-content: right;
-	margin-right: 0.75rem;
 	position: absolute;
-	margin-left: 85%;
+
+	right: 0;
 }
 
 .nav-link {
