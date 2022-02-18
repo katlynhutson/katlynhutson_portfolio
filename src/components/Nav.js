@@ -28,11 +28,11 @@ function Nav(props) {
 							projects
 						</Link>
 					</li>
-					<li>
+					{/* <li>
 						<Link to='/life-update' className='nav-link'>
 							life update
 						</Link>
-					</li>
+					</li> */}
 				</ul>
 			</nav>
 		</header>
