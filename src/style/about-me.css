@@ -4,37 +4,125 @@
 	align-items: center;
 	flex-flow: column;
 	height: 100vh;
+	padding-top: 1.25rem;
+	/* margin-top: 1.25rem; */
 }
 
-/* .about {
-	margin: 0;
-	margin-top: -7rem;
-	font-weight: normal;
-} */
-
 .about-box {
-	margin: 1rem;
-	padding: 1rem;
-	border: 2px solid var(--navy);
+	margin: 0.5rem;
+	padding: 0.5rem;
+	/* border: 2px solid var(--navy); */
 }
 
 .skills-box {
 	margin: 1rem;
-	padding: 1rem;
+	padding: 0.5rem;
 	border: 2px solid var(--navy);
+	background-color: var(--pink);
+	color: var(--navy);
+	font-size: 1rem;
 }
+.skills-title {
+	justify-content: center;
+	text-align: left;
+
+	padding: 0.75rem;
+	font-weight: 600;
+	font-size: 0.9rem;
+}
+
+.skills-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr, 1fr, 1fr;
+}
+.skill {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+	border: 1px solid var(--navy);
+	background-color: var(--sand);
+	font-size: 0.75rem;
+}
+
 .contact-box {
 	margin: 1rem;
-	padding: 1rem;
+	padding: 0.5rem;
 	border: 2px solid var(--navy);
+	background-color: var(--teal);
+	color: var(--sand);
+	font-size: 1rem;
+}
+.contact-title {
+	justify-content: center;
+	text-align: left;
+	padding: 0.75rem;
+	font-weight: 600;
+	font-size: 0.9rem;
+}
+.contact-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+.contact {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+	border: 1px solid var(--navy);
+	background-color: var(--sand);
+	color: var(--sand);
+	border: 1px solid var(--sand);
+	/* padding: 0.25rem; */
+	background-color: var(--navy);
+	font-size: 0.75rem;
+}
+
+.contact a {
+	text-decoration: none;
+	color: var(--navy);
+
+	padding: 0.25rem;
+	background-color: var(--sand);
 }
 .resume-box {
 	margin: 1rem;
-	padding: 1rem;
+	padding: 2rem;
+
+	font-size: 1rem;
 	border: 2px solid var(--navy);
+	background-color: var(--mango);
 }
-.image-box {
-	margin: 1rem;
+.resume-title {
+	justify-content: center;
+	text-align: left;
 	padding: 1rem;
+	font-weight: 600;
 	border: 2px solid var(--navy);
+	background-color: var(--sand);
+	text-decoration: none;
+	color: var(--navy);
+	font-size: 0.9rem;
+}
+
+.me-box {
+	margin: 1rem;
+	padding: 0.5rem;
+	border: 2px solid var(--navy);
+	background-color: var(--sand);
+	color: var(--navy);
+}
+.me-title {
+	justify-content: center;
+	text-align: left;
+	padding: 0.5rem;
+	font-weight: 600;
+	font-size: 0.9rem;
+}
+
+.me-content {
+	font-size: 0.75rem;
+	padding: 0.5rem;
 }

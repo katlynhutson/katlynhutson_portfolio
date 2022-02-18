@@ -5,7 +5,7 @@
 	bottom: 0;
 	height: 100vh;
 	margin: 0px;
-	margin-top: 3rem;
+	margin-top: 4rem;
 	padding-right: 1rem;
 	width: 100%;
 	flex-direction: column;
@@ -22,7 +22,7 @@
 	display: flex;
 	justify-content: right;
 	position: absolute;
-
+	padding: 1rem;
 	right: 0;
 }
 
@@ -33,6 +33,7 @@
 
 nav li {
 	padding-top: 1rem;
+	margin-right: 1rem;
 }
 
 /* references for hamburger menu -->https://ibaslogic.com/how-to-add-hamburger-menu-in-react/ https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/ */
